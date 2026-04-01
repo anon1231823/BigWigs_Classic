@@ -5,7 +5,7 @@
 if not BigWigsLoader.isSeasonOfDiscovery then return end
 local mod, CL = BigWigs:NewBoss("Naxxramas Trash", 533)
 if not mod then return end
-mod.displayName = CL.trash
+mod:SetTrashModule(true)
 mod:RegisterEnableMob(16028, 15931, 15932, 15928, 15929, 15930) -- Patchwerk, Grobbulus, Gluth, Thaddius, Stalagg, Feugen
 
 --------------------------------------------------------------------------------

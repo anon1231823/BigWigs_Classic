@@ -4,7 +4,7 @@
 
 local mod, CL = BigWigs:NewBoss("Blackwing Lair Trash", 469)
 if not mod then return end
-mod.displayName = CL.trash
+mod:SetTrashModule(true)
 if mod:GetSeason() == 2 then
 	mod:RegisterEnableMob(
 		12460, -- Death Talon Wyrmguard

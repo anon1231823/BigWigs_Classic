@@ -4,7 +4,7 @@
 
 local mod, CL = BigWigs:NewBoss("Ruins of Ahn'Qiraj Trash", 509)
 if not mod then return end
-mod.displayName = CL.trash
+mod:SetTrashModule(true)
 mod:RegisterEnableMob(15355) -- Anubisath Guardian
 if mod:GetSeason() == 2 then
 	mod:RegisterEnableMob(15340, 15370, 15369) -- Moam, Buru, Ayamiss
