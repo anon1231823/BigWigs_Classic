@@ -31,12 +31,14 @@ BigWigs:AddSounds("Silithid Royalty", {
 BigWigs:AddColors("Battleguard Sartura", {
 	[8269] = "orange",
 	[26083] = {"green","red"},
+	["berserk"] = {"orange","red","yellow"},
 	["stages"] = "cyan",
 })
 
 BigWigs:AddSounds("Battleguard Sartura", {
 	[8269] = "long",
 	[26083] = "warning",
+	["berserk"] = "alarm",
 	["stages"] = "info",
 })
 
@@ -65,13 +67,13 @@ BigWigs:AddSounds("Viscidus", {
 BigWigs:AddColors("Princess Huhuran", {
 	[26051] = {"green","yellow"},
 	[26180] = {"green","red"},
-	["berserk"] = "red",
+	["berserk"] = {"orange","red","yellow"},
 })
 
 BigWigs:AddSounds("Princess Huhuran", {
 	[26051] = "alarm",
 	[26180] = "alert",
-	["berserk"] = "long",
+	["berserk"] = {"alarm","long"},
 })
 
 BigWigs:AddColors("The Twin Emperors", {
@@ -80,6 +82,7 @@ BigWigs:AddColors("The Twin Emperors", {
 	[804] = "red",
 	[7393] = "red",
 	[26607] = "blue",
+	["berserk"] = {"orange","red","yellow"},
 })
 
 BigWigs:AddSounds("The Twin Emperors", {
@@ -88,6 +91,7 @@ BigWigs:AddSounds("The Twin Emperors", {
 	[804] = "alarm",
 	[7393] = "warning",
 	[26607] = "underyou",
+	["berserk"] = "alarm",
 })
 
 BigWigs:AddColors("Ouro", {

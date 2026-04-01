@@ -17,11 +17,13 @@ BigWigs:AddSounds("Azuregos", {
 BigWigs:AddColors("Lord Kazzak", {
 	[21056] = {"blue","yellow"},
 	[21063] = {"blue","orange"},
+	["berserk"] = {"orange","red","yellow"},
 })
 
 BigWigs:AddSounds("Lord Kazzak", {
 	[21056] = "warning",
 	[21063] = "alarm",
+	["berserk"] = "alarm",
 })
 
 BigWigs:AddColors("Emeriss", {

@@ -2,22 +2,26 @@
 
 BigWigs:AddColors("Patchwerk", {
 	[28131] = "orange",
+	["berserk"] = {"orange","red","yellow"},
 })
 
 BigWigs:AddSounds("Patchwerk", {
 	[28131] = "long",
+	["berserk"] = "alarm",
 })
 
 BigWigs:AddColors("Grobbulus", {
 	[28169] = {"blue","red"},
 	[28240] = "yellow",
 	["adds"] = "orange",
+	["berserk"] = {"orange","red","yellow"},
 })
 
 BigWigs:AddSounds("Grobbulus", {
 	[28169] = "warning",
 	[28240] = "info",
 	["adds"] = "long",
+	["berserk"] = "alarm",
 })
 
 BigWigs:AddColors("Gluth", {
@@ -26,6 +30,7 @@ BigWigs:AddColors("Gluth", {
 	[28375] = "red",
 	[29306] = "blue",
 	[29685] = "yellow",
+	["berserk"] = {"orange","red"},
 })
 
 BigWigs:AddSounds("Gluth", {
@@ -33,6 +38,7 @@ BigWigs:AddSounds("Gluth", {
 	[28371] = "alert",
 	[28375] = "warning",
 	[29685] = "long",
+	["berserk"] = "alarm",
 })
 
 BigWigs:AddColors("Thaddius", {
@@ -41,6 +47,7 @@ BigWigs:AddColors("Thaddius", {
 	[28089] = "orange",
 	[28134] = "red",
 	[28338] = "red",
+	["berserk"] = {"orange","red"},
 	["stages"] = {"cyan","green"},
 })
 
@@ -49,6 +56,7 @@ BigWigs:AddSounds("Thaddius", {
 	[28084] = "warning",
 	[28089] = "long",
 	[28338] = "alert",
+	["berserk"] = "alarm",
 	["stages"] = {"info","long"},
 })
 
@@ -182,6 +190,7 @@ BigWigs:AddColors("Sapphiron", {
 	[28542] = {"green","orange"},
 	[28547] = "blue",
 	[1219728] = {"blue","yellow"},
+	["berserk"] = {"orange","red","yellow"},
 	["stages"] = "cyan",
 })
 
@@ -190,6 +199,7 @@ BigWigs:AddSounds("Sapphiron", {
 	[28542] = "alert",
 	[28547] = "underyou",
 	[1219728] = "warning",
+	["berserk"] = "alarm",
 	["stages"] = "long",
 })
 

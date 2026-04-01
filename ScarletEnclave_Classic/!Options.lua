@@ -4,6 +4,7 @@ BigWigs:AddColors("Balnazzar Scarlet Enclave", {
 	[1231837] = {"blue","red"},
 	[1231844] = {"blue","red"},
 	[1231901] = "yellow",
+	["berserk"] = {"orange","red"},
 	["stages"] = "cyan",
 })
 
@@ -11,6 +12,7 @@ BigWigs:AddSounds("Balnazzar Scarlet Enclave", {
 	[1231837] = "alert",
 	[1231844] = "warning",
 	[1231901] = "info",
+	["berserk"] = "alarm",
 	["stages"] = "long",
 })
 
@@ -21,6 +23,7 @@ BigWigs:AddColors("High Commander Beatrix", {
 	[1232637] = {"blue","red"},
 	[1237324] = "blue",
 	["arrows"] = "yellow",
+	["berserk"] = {"orange","red"},
 	["bombing"] = "yellow",
 	["meteor"] = "orange",
 	["stages"] = "cyan",
@@ -33,6 +36,7 @@ BigWigs:AddSounds("High Commander Beatrix", {
 	[1232637] = "warning",
 	[1237324] = "underyou",
 	["arrows"] = "info",
+	["berserk"] = "alarm",
 	["bombing"] = "info",
 	["meteor"] = "alert",
 	["stages"] = "long",
@@ -45,6 +49,7 @@ BigWigs:AddColors("Solistrasza", {
 	[1231993] = {"blue","purple"},
 	[1232097] = {"blue","orange"},
 	["adds"] = "cyan",
+	["berserk"] = {"orange","red"},
 	["stages"] = "cyan",
 })
 
@@ -54,6 +59,7 @@ BigWigs:AddSounds("Solistrasza", {
 	[1231993] = "alert",
 	[1232097] = "warning",
 	["adds"] = "info",
+	["berserk"] = "alarm",
 	["stages"] = "long",
 })
 
@@ -63,6 +69,7 @@ BigWigs:AddColors("Alexei the Beastlord", {
 	[1230200] = "blue",
 	[1230242] = "blue",
 	[1230899] = "orange",
+	["berserk"] = {"orange","red","yellow"},
 })
 
 BigWigs:AddSounds("Alexei the Beastlord", {
@@ -71,6 +78,7 @@ BigWigs:AddSounds("Alexei the Beastlord", {
 	[1230200] = "info",
 	[1230242] = "info",
 	[1230899] = "long",
+	["berserk"] = "alarm",
 })
 
 BigWigs:AddColors("Mason the Echo", {
@@ -78,6 +86,7 @@ BigWigs:AddColors("Mason the Echo", {
 	[1231585] = {"cyan","red"},
 	[1231592] = {"green","orange"},
 	[1234347] = {"green","yellow"},
+	["berserk"] = {"orange","red","yellow"},
 })
 
 BigWigs:AddSounds("Mason the Echo", {
@@ -85,6 +94,7 @@ BigWigs:AddSounds("Mason the Echo", {
 	[1231585] = "long",
 	[1231592] = "alert",
 	[1234347] = "info",
+	["berserk"] = "alarm",
 })
 
 BigWigs:AddColors("Reborn Council", {
@@ -92,6 +102,7 @@ BigWigs:AddColors("Reborn Council", {
 	[1231264] = "yellow",
 	[1231282] = "cyan",
 	[1231383] = "red",
+	["berserk"] = {"orange","red","yellow"},
 	["stages"] = "cyan",
 })
 
@@ -100,6 +111,7 @@ BigWigs:AddSounds("Reborn Council", {
 	[1231264] = "warning",
 	[1231282] = "long",
 	[1231383] = "alarm",
+	["berserk"] = "alarm",
 })
 
 BigWigs:AddColors("Lillian Voss", {
@@ -109,6 +121,7 @@ BigWigs:AddColors("Lillian Voss", {
 	[1233883] = {"blue","green"},
 	[1233901] = "blue",
 	[1234540] = "yellow",
+	["berserk"] = {"orange","red","yellow"},
 })
 
 BigWigs:AddSounds("Lillian Voss", {
@@ -117,6 +130,7 @@ BigWigs:AddSounds("Lillian Voss", {
 	[1233883] = "warning",
 	[1233901] = "alarm",
 	[1234540] = "info",
+	["berserk"] = "alarm",
 })
 
 BigWigs:AddColors("Grand Crusader Caldoran", {
@@ -129,6 +143,7 @@ BigWigs:AddColors("Grand Crusader Caldoran", {
 	[1231618] = "orange",
 	[1231651] = "orange",
 	[1231654] = "orange",
+	["berserk"] = {"orange","red"},
 	["run"] = "blue",
 	["stages"] = "cyan",
 })
@@ -143,6 +158,7 @@ BigWigs:AddSounds("Grand Crusader Caldoran", {
 	[1231618] = "alert",
 	[1231651] = "alert",
 	[1231654] = "alert",
+	["berserk"] = "alarm",
 	["stages"] = "long",
 })
 
