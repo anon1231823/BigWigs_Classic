@@ -8,7 +8,7 @@ if not mod then return end
 mod:RegisterEnableMob(6109)
 mod:SetAllowWin(true)
 mod.otherMenu = -947
-mod.worldBoss = 6109
+mod:SetWorldModule(true)
 
 --------------------------------------------------------------------------------
 -- Localization
