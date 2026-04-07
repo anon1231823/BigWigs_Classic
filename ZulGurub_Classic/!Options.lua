@@ -84,11 +84,13 @@ BigWigs:AddSounds("High Priestess Arlokk", {
 BigWigs:AddColors("Hakkar", {
 	[24324] = {"orange","red"},
 	[24327] = {"blue","yellow"},
+	["berserk"] = {"orange","red","yellow"},
 })
 
 BigWigs:AddSounds("Hakkar", {
 	[24324] = {"alarm","long"},
 	[24327] = "info",
+	["berserk"] = "alarm",
 })
 
 BigWigs:AddColors("Bloodlord Mandokir", {

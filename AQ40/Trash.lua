@@ -4,7 +4,7 @@
 
 local mod, CL = BigWigs:NewBoss("Ahn'Qiraj Trash", 531)
 if not mod then return end
-mod.displayName = CL.trash
+mod:SetTrashModule(true)
 mod:RegisterEnableMob(
 	15264, -- Anubisath Sentinel
 	15247, -- Qiraji Brainwasher

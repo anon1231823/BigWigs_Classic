@@ -1,4 +1,4 @@
-## Interface: 120001, 110207, 120000
+## Interface: 120001, 120005, 120000
 
 ## Title: BigWigs [|cffeda55fClassic|r]
 ## Title-zhCN: BigWigs [|cffeda55f经典旧世|r]
@@ -35,7 +35,7 @@
 ## X-WoWI-ID: 22095
 ## X-Wago-ID: rNkPgm6a
 ## X-BigWigs-LoadOn-InstanceId: 409, 469, 509, 531
-## X-BigWigs-Minimum: 406
+## X-BigWigs-Minimum: 412
 
 MoltenCore\modules.xml
 BlackwingLair\modules.xml
