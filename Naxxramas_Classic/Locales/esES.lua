@@ -36,7 +36,7 @@ if L then
 	L.engage_yell_trigger = "¡Esbirros, sirvientes, soldados de la fría oscuridad! ¡Obedeced la llamada de Kel'Thuzad!"
 	L.stage2_yell_trigger1 = "¡Suplicad clemencia!"
 	L.stage2_yell_trigger2 = "¡Exhalad el último suspiro de vida!"
-	--L.stage2_yell_trigger3 = "The end is upon you!"
+	L.stage2_yell_trigger3 = "¡Vuestro final está cerca!"
 	L.stage3_yell_trigger = "¡Maestro, necesito ayuda!"
 	L.adds_yell_trigger = "Muy bien. ¡Alzaos, guerreros de las inmensidades heladas! ¡Os ordeno que luchéis, matéis y muráis por vuestro maestro! ¡Que no quede nadie con vida!"
 end
