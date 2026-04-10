@@ -11,12 +11,6 @@ mod:SetAllowWin(true)
 mod:SetStage(1)
 
 --------------------------------------------------------------------------------
--- Locals
---
-
-local carrionOnMe = false
-
---------------------------------------------------------------------------------
 -- Localization
 --
 
@@ -67,7 +61,6 @@ function mod:OnBossEnable()
 end
 
 function mod:OnEngage()
-	carrionOnMe = false
 	self:SetStage(1)
 	self:Message("stages", "cyan", CL.stage:format(1), false)
 	self:CDBar(1231837, 9.5) -- Carrion Swarm
