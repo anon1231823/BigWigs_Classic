@@ -166,6 +166,8 @@ end
 L = BigWigs:NewBossLocale("Grand Crusader Caldoran", "esMX")
 if L then
 	--L.bossName = "Grand Crusader Caldoran"
+	--L.run = "Run to the door"
+	--L.run_desc = "Show a message after stage 2 ends reminding you to run to the door."
 end
 
 -- Storm Cliffs

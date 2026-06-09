@@ -34,13 +34,13 @@ if L then
 	L[240809] = "Vishas"
 	L[240810] = "Doan"
 
-	L.custom_select_interrupt_counter = "Interrupt Counter"
-	L.custom_select_interrupt_counter_desc = "Choose when the interrupt counter should reset back to 1."
-	L.custom_select_interrupt_counter_icon = "ability_kick"
-	L.custom_select_interrupt_counter_value1 = "Count to 2. 1,2,1,2, etc."
-	L.custom_select_interrupt_counter_value2 = "Count to 3. 1,2,3,1,2,3, etc."
-	L.custom_select_interrupt_counter_value3 = "Count to 4. 1,2,3,4,1,2,3,4, etc."
-	L.custom_select_interrupt_counter_value4 = "Count to 5. 1,2,3,4,5,1,2,3,4,5, etc."
+	L.custom_select_interrupt_counter = CL.counter_reset_name:format(mod:SpellName(1231095))
+	L.custom_select_interrupt_counter_desc = CL.counter_reset_desc
+	L.custom_select_interrupt_counter_icon = 1231095
+	L.custom_select_interrupt_counter_value1 = CL.reset_casts:format(2)
+	L.custom_select_interrupt_counter_value2 = CL.reset_casts:format(3)
+	L.custom_select_interrupt_counter_value3 = CL.reset_casts:format(4)
+	L.custom_select_interrupt_counter_value4 = CL.reset_casts:format(5)
 end
 
 --------------------------------------------------------------------------------
