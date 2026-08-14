@@ -34,17 +34,17 @@ L = BigWigs:NewBossLocale("Kel'Thuzad", "ruRU")
 if L then
 	L.KELTHUZADCHAMBERLOCALIZEDLOLHAX = "Зал Кел'Тузада"
 
-	L.engage_yell_trigger = "Соратники слуги солдаты холодной тьмы! Повинуйтесь зову Кел'Тузада!"
-	L.stage2_yell_trigger1 = "Молите о пощаде!"
-	L.stage2_yell_trigger2 = "Кричите! Кричите изо всех сил!"
+	L.engage_yell_trigger = "Приспешники, слуги, воины холодного мрака! Повинуйтесь призыву Кел'Тузада!"
+	L.stage2_yell_trigger1 = "Моли о пощаде!"
+	L.stage2_yell_trigger2 = "Кричи громче, помрешь – перестанешь!"
 	L.stage2_yell_trigger3 = "Вы уже мертвы!"
 	L.stage3_yell_trigger = "Господин, мне необходима помощь!"
-	L.adds_yell_trigger = "Хорошо. Воины ледяных пустошей восстаньте! Повелеваю вам сражаться убивать и умирать во имя своего повелителя! Не щадить никого!"
+	L.adds_yell_trigger = "Очень хорошо. Воины замерзших пустынь, восстаньте! Я приказываю вам сражаться, убивать и умирать за вашего повелителя! Не дайте выжить никому!
 end
 
 L = BigWigs:NewBossLocale("Noth the Plaguebringer", "ruRU")
 if L then
-	L.adds_yell_trigger = "Встаньте мои воины" -- Встаньте мои воины! Встаньте и сражайтесь вновь!
+	L.adds_yell_trigger = "Восстаньте, мои воины" -- Восстаньте, мои воины! Восстаньте и сразитесь вновь!
 end
 
 L = BigWigs:NewBossLocale("Instructor Razuvious", "ruRU")
@@ -59,7 +59,7 @@ if L then
 
 	L.stage2_yell_trigger1 = "Отведайте... своих... костей..."
 	L.stage2_yell_trigger2 = "Растерзаю!!!"
-	L.stage2_yell_trigger3 = "Убей..."
+	L.stage2_yell_trigger3 = "Убей…"
 
 	L.add_death_emote_trigger = "%s умирает."
 	L.overload_emote_trigger = "%s перезагружается!"
