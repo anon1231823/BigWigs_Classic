@@ -58,7 +58,7 @@ if L then
 	L[15930] = "Фойген"
 
 	L.stage2_yell_trigger1 = "Отведайте… своих… костей…"
-	L.stage2_yell_trigger2 = "Растерзаю!!!"
+	L.stage2_yell_trigger2 = "Проломить… тебя!!!"
 	L.stage2_yell_trigger3 = "Убей…"
 
 	L.add_death_emote_trigger = "%s умирает."
